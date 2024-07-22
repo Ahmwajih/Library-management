@@ -1,0 +1,35 @@
+body {
+    background: rgb(196,125,49);
+    /* background  cover */
+
+background-size: contain;
+background-repeat: no-repeat;
+    background: linear-gradient(330deg, rgba(196,125,49,0.7960434173669468) 0%, rgba(166,139,71,0.19380252100840334) 49%);    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer, nav {
+    padding: 20px;
+    background-color: #795548; 
+    color: #ffffff; 
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.navbar a, .navbar a:visited, .footer a, .footer a:visited {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.navbar a:hover, .navbar a:focus, .footer a:hover, .footer a:focus {
+    color: #8d6e63; 
+    text-decoration: underline; 
+}
